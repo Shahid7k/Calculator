@@ -1,0 +1,36 @@
+body{
+	background-image: url("https://www.setaswall.com/wp-content/uploads/2017/06/Dark-Wallpapes-17-1920-x-1200.jpg");
+	background-size: cover;
+}
+.cHead{
+	text-shadow: 3px 3px 8px white;
+    color: white;
+    font-size: 6em;
+    text-align: center;
+    border-bottom: 2px rgba(244,244,244,0.4) dashed;
+}
+#res{
+	border: rgba(255,0,0,0.9) dashed;
+    float: right;
+    margin-top: 250px;
+    margin-right: 150px;
+    text-shadow: 3px 3px 8px white;
+    color: white;
+    padding-left: 40px;
+    font-size: 4em;
+}
+img{
+	height: 100px;
+	width: 70px;
+}
+.inp{
+	float: left;
+	padding-left: 150px;
+	padding-top: 50px;
+}
+button{
+	transition: 0.2s;
+}
+button:hover{
+	transform:scale(1.1); 
+}
