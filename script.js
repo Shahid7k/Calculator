@@ -1,7 +1,7 @@
 let v=document.querySelector("#res");
 function display(x) {
 	// body...
-	if(v.innerHTML=="No input!") v.innerHTML="";
+	if(v.innerHTML=="No input!" || v.innerHTML=="Result") v.innerHTML="";
 	v.innerHTML+=x;
 }
 function solve() {
@@ -17,5 +17,5 @@ function solve() {
 }
 function cls() {
 	// body...
-	v.innerHTML="";
+	v.innerHTML="Result";
 }
